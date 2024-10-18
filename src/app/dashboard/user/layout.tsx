@@ -48,7 +48,7 @@ export default function DashboardLayout({
             <div className="flex h-14 items-center px-4 lg:h-[60px] lg:px-6">
               <Link href="/" className="text-white flex items-center gap-2 font-semibold">
                 <SiStockx className="h-6 w-6" />
-                <span className="">SamStocks</span>
+                <span className="">StockUp</span>
               </Link>
             </div>
             <div className="flex-1">
@@ -101,7 +101,7 @@ export default function DashboardLayout({
                     className="flex items-center gap-2 text-lg font-semibold"
                   >
                     <Package2 className="sr-only h-6 w-6" />
-                    <span className="sr-only">Samstocks</span>
+                    <span className="sr-only">StockUp</span>
                   </Link>
                   <Link
                     href="/dashboard/user/transaction-history"
@@ -130,7 +130,7 @@ export default function DashboardLayout({
             <div className="md:hidden flex h-14 items-center pr-4 lg:h-[60px] lg:px-6">
               <Link href="/" className="text-white flex items-center gap-2 font-semibold">
                 <SiStockx className="h-4 w-4 md:h-6 md:w-6" />
-                <span className="text-sm">SamStocks</span>
+                <span className="text-sm">StockUp</span>
               </Link>
             </div>
 

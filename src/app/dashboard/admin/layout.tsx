@@ -51,7 +51,7 @@ export default function DashboardLayout({
             <div className="flex h-14 items-center px-4 lg:h-[60px] lg:px-6">
               <Link href="/" className="text-white flex items-center gap-2 font-semibold">
                 <SiStockx className="h-6 w-6" />
-                <span className="">SamStocks</span>
+                <span className="">StockUp</span>
               </Link>
             </div>
             <div className="flex-1">
@@ -67,7 +67,7 @@ export default function DashboardLayout({
                 <Link
                   href="/dashboard/admin/users"
                   className={`text-white flex items-center gap-3 pl-6 pr-3 py-2 transition-all hover:bg-[#2e3327] dark:hover:bg-muted ${pathname === '/dashboard/admin/users' && 'bg-[#2e3327] dark:bg-muted'
-                  }`}
+                    }`}
                 >
                   <ShoppingCart className="h-4 w-4" />
                   Users
@@ -78,7 +78,7 @@ export default function DashboardLayout({
                 <Link
                   href="/dashboard/admin/stocks"
                   className={`text-white flex items-center gap-3 pl-6 pr-3 py-2 transition-all hover:bg-[#2e3327] dark:hover:bg-muted ${pathname === '/dashboard/admin/stocks' && 'bg-[#2e3327] dark:bg-muted'
-                  }`}
+                    }`}
                 >
                   <Package className="h-4 w-4" />
                   Stock Manager{" "}
@@ -115,7 +115,7 @@ export default function DashboardLayout({
                     className="flex items-center gap-2 text-lg font-semibold"
                   >
                     <Package2 className="sr-only h-6 w-6" />
-                    <span className="sr-only">Samstocks</span>
+                    <span className="sr-only">StockUp</span>
                   </Link>
                   <Link
                     href="#"
@@ -154,7 +154,7 @@ export default function DashboardLayout({
             <div className="md:hidden flex h-14 items-center pr-4 lg:h-[60px] lg:px-6">
               <Link href="/" className="text-white flex items-center gap-2 font-semibold">
                 <SiStockx className="h-4 w-4 md:h-6 md:w-6" />
-                <span className="text-sm">SamStocks</span>
+                <span className="text-sm">s</span>
               </Link>
             </div>
 
