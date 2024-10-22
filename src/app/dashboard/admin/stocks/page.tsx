@@ -8,7 +8,11 @@ export default function Stocks() {
             <div className="flex items-center">
                 <h1 className="text-lg font-bold md:text-3xl">Stock Manager</h1>
             </div>
+<<<<<<< HEAD
             <div className="w-full lg:grid lg:grid-cols-2 gap-[15%]">
+=======
+            <div className="w-full lg:grid lg:grid-cols-2 gap-[10%] mb-4">
+>>>>>>> 0ee5324 (update some pages)
                 <div className="">
                     <h1 className="text-xl font-bold mb-4">Create New Stocks</h1>
                     <div className="grid gap-4">
