@@ -1,20 +1,11 @@
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 133fd70 (fixed unused varaibles)
 import {
     DropdownMenu,
     DropdownMenuContent,
     DropdownMenuItem,
     DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
-<<<<<<< HEAD
->>>>>>> 0ee5324 (update some pages)
-=======
->>>>>>> 133fd70 (fixed unused varaibles)
 import { Input } from "@/components/ui/input"
 import {
     Table,
@@ -24,14 +15,7 @@ import {
     TableHeader,
     TableRow,
 } from "@/components/ui/table"
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 import { MoreHorizontal } from "lucide-react"
->>>>>>> 0ee5324 (update some pages)
-=======
-import { MoreHorizontal } from "lucide-react"
->>>>>>> 133fd70 (fixed unused varaibles)
 
 export default function Users() {
     return (
@@ -78,16 +62,6 @@ export default function Users() {
                             <TableCell>
                                 <Badge variant="outline">Active</Badge>
                             </TableCell>
-<<<<<<< HEAD
-<<<<<<< HEAD
-                            <TableCell className="gap-5">
-                                <Button className="bg-[#2e3327] dark:bg-primary dark:hover:bg-primary/90 hover:bg-[#393d32] px-6 mr-3">Create</Button>
-                                <Button className="bg-[#2e3327] dark:bg-primary dark:hover:bg-primary/90 hover:bg-[#393d32] px-6 mr-3">Edit</Button>
-                                <Button className="bg-[#2e3327] dark:bg-primary dark:hover:bg-primary/90 hover:bg-[#393d32] px-6 mr-3">Delete</Button>
-                            </TableCell>
-=======
-=======
->>>>>>> 133fd70 (fixed unused varaibles)
                             <TableCell>
                                 <DropdownMenu>
                                     <DropdownMenuTrigger asChild>
@@ -108,10 +82,6 @@ export default function Users() {
                                 </DropdownMenu>
                             </TableCell>
 
-<<<<<<< HEAD
->>>>>>> 0ee5324 (update some pages)
-=======
->>>>>>> 133fd70 (fixed unused varaibles)
                         </TableRow>
                         <TableRow>
                             <TableCell className="hidden md:table-cell">
@@ -130,14 +100,6 @@ export default function Users() {
                                 <Badge variant="outline">Active</Badge>
                             </TableCell>
                             <TableCell>
-<<<<<<< HEAD
-<<<<<<< HEAD
-                                <Button className="bg-[#2e3327] dark:bg-primary dark:hover:bg-primary/90 hover:bg-[#393d32] px-6 mr-3">Create</Button>
-                                <Button className="bg-[#2e3327] dark:bg-primary dark:hover:bg-primary/90 hover:bg-[#393d32] px-6 mr-3">Edit</Button>
-                                <Button className="bg-[#2e3327] dark:bg-primary dark:hover:bg-primary/90 hover:bg-[#393d32] px-6 mr-3">Delete</Button>
-=======
-=======
->>>>>>> 133fd70 (fixed unused varaibles)
                                 <DropdownMenu>
                                     <DropdownMenuTrigger asChild>
                                         <Button
@@ -155,10 +117,6 @@ export default function Users() {
                                         <DropdownMenuItem className="cursor-pointer">Delete</DropdownMenuItem>
                                     </DropdownMenuContent>
                                 </DropdownMenu>
-<<<<<<< HEAD
->>>>>>> 0ee5324 (update some pages)
-=======
->>>>>>> 133fd70 (fixed unused varaibles)
                             </TableCell>
                         </TableRow>
                         <TableRow>
@@ -178,14 +136,6 @@ export default function Users() {
                                 <Badge variant="outline">Active</Badge>
                             </TableCell>
                             <TableCell>
-<<<<<<< HEAD
-<<<<<<< HEAD
-                                <Button className="bg-[#2e3327] dark:bg-primary dark:hover:bg-primary/90 hover:bg-[#393d32] px-6 mr-3">Create</Button>
-                                <Button className="bg-[#2e3327] dark:bg-primary dark:hover:bg-primary/90 hover:bg-[#393d32] px-6 mr-3">Edit</Button>
-                                <Button className="bg-[#2e3327] dark:bg-primary dark:hover:bg-primary/90 hover:bg-[#393d32] px-6 mr-3">Delete</Button>
-=======
-=======
->>>>>>> 133fd70 (fixed unused varaibles)
                                 <DropdownMenu>
                                     <DropdownMenuTrigger asChild>
                                         <Button
@@ -203,10 +153,6 @@ export default function Users() {
                                         <DropdownMenuItem className="cursor-pointer">Delete</DropdownMenuItem>
                                     </DropdownMenuContent>
                                 </DropdownMenu>
-<<<<<<< HEAD
->>>>>>> 0ee5324 (update some pages)
-=======
->>>>>>> 133fd70 (fixed unused varaibles)
                             </TableCell>
                         </TableRow>
                         <TableRow>
@@ -226,14 +172,6 @@ export default function Users() {
                                 <Badge variant="secondary">Draft</Badge>
                             </TableCell>
                             <TableCell>
-<<<<<<< HEAD
-<<<<<<< HEAD
-                                <Button className="bg-[#2e3327] dark:bg-primary dark:hover:bg-primary/90 hover:bg-[#393d32] px-6 mr-3">Create</Button>
-                                <Button className="bg-[#2e3327] dark:bg-primary dark:hover:bg-primary/90 hover:bg-[#393d32] px-6 mr-3">Edit</Button>
-                                <Button className="bg-[#2e3327] dark:bg-primary dark:hover:bg-primary/90 hover:bg-[#393d32] px-6 mr-3">Delete</Button>
-=======
-=======
->>>>>>> 133fd70 (fixed unused varaibles)
                                 <DropdownMenu>
                                     <DropdownMenuTrigger asChild>
                                         <Button
@@ -251,10 +189,6 @@ export default function Users() {
                                         <DropdownMenuItem className="cursor-pointer">Delete</DropdownMenuItem>
                                     </DropdownMenuContent>
                                 </DropdownMenu>
-<<<<<<< HEAD
->>>>>>> 0ee5324 (update some pages)
-=======
->>>>>>> 133fd70 (fixed unused varaibles)
                             </TableCell>
                         </TableRow>
                         <TableRow>
@@ -274,14 +208,6 @@ export default function Users() {
                                 <Badge variant="outline">Active</Badge>
                             </TableCell>
                             <TableCell>
-<<<<<<< HEAD
-<<<<<<< HEAD
-                                <Button className="bg-[#2e3327] dark:bg-primary dark:hover:bg-primary/90 hover:bg-[#393d32] px-6 mr-3">Create</Button>
-                                <Button className="bg-[#2e3327] dark:bg-primary dark:hover:bg-primary/90 hover:bg-[#393d32] px-6 mr-3">Edit</Button>
-                                <Button className="bg-[#2e3327] dark:bg-primary dark:hover:bg-primary/90 hover:bg-[#393d32] px-6 mr-3">Delete</Button>
-=======
-=======
->>>>>>> 133fd70 (fixed unused varaibles)
                                 <DropdownMenu>
                                     <DropdownMenuTrigger asChild>
                                         <Button
@@ -299,10 +225,6 @@ export default function Users() {
                                         <DropdownMenuItem className="cursor-pointer">Delete</DropdownMenuItem>
                                     </DropdownMenuContent>
                                 </DropdownMenu>
-<<<<<<< HEAD
->>>>>>> 0ee5324 (update some pages)
-=======
->>>>>>> 133fd70 (fixed unused varaibles)
                             </TableCell>
                         </TableRow>
                         <TableRow>
@@ -322,14 +244,6 @@ export default function Users() {
                                 <Badge variant="outline">Active</Badge>
                             </TableCell>
                             <TableCell>
-<<<<<<< HEAD
-<<<<<<< HEAD
-                                <Button className="bg-[#2e3327] dark:bg-primary dark:hover:bg-primary/90 hover:bg-[#393d32] px-6 mr-3">Create</Button>
-                                <Button className="bg-[#2e3327] dark:bg-primary dark:hover:bg-primary/90 hover:bg-[#393d32] px-6 mr-3">Edit</Button>
-                                <Button className="bg-[#2e3327] dark:bg-primary dark:hover:bg-primary/90 hover:bg-[#393d32] px-6 mr-3">Delete</Button>
-=======
-=======
->>>>>>> 133fd70 (fixed unused varaibles)
                                 <DropdownMenu>
                                     <DropdownMenuTrigger asChild>
                                         <Button
@@ -347,10 +261,6 @@ export default function Users() {
                                         <DropdownMenuItem className="cursor-pointer">Delete</DropdownMenuItem>
                                     </DropdownMenuContent>
                                 </DropdownMenu>
-<<<<<<< HEAD
->>>>>>> 0ee5324 (update some pages)
-=======
->>>>>>> 133fd70 (fixed unused varaibles)
                             </TableCell>
                         </TableRow>
                     </TableBody>

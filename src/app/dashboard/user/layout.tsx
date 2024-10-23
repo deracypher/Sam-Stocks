@@ -6,15 +6,6 @@ import Link from "next/link"
 import { ThemeProvider } from "@/components/theme-provider"
 
 import {
-<<<<<<< HEAD
-<<<<<<< HEAD
-  CircleUser,
-  Menu,
-  Package,
-  Package2,
-=======
-=======
->>>>>>> 133fd70 (fixed unused varaibles)
   ChartArea,
   CircleUser,
   Download,
@@ -23,10 +14,6 @@ import {
   Package,
   Package2,
   Upload,
-<<<<<<< HEAD
->>>>>>> 0ee5324 (update some pages)
-=======
->>>>>>> 133fd70 (fixed unused varaibles)
   Users,
 } from "lucide-react"
 
@@ -59,38 +46,17 @@ export default function DashboardLayout({
       enableSystem
       disableTransitionOnChange
     >
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <div className="bg-[#393d32] dark:bg-transparent grid min-h-screen w-full md:grid-cols-[180px_1fr] lg:grid-cols-[240px_1fr]">
-=======
       <div className="bg-[#393d32] dark:bg-transparent grid min-h-[calc(100vh-52px)] w-full md:grid-cols-[180px_1fr] lg:grid-cols-[240px_1fr]">
->>>>>>> 0ee5324 (update some pages)
-=======
-      <div className="bg-[#393d32] dark:bg-transparent grid min-h-[calc(100vh-52px)] w-full md:grid-cols-[180px_1fr] lg:grid-cols-[240px_1fr]">
->>>>>>> 133fd70 (fixed unused varaibles)
         <div className="hidden md:block dark:bg-muted/40">
           <div className="flex h-full max-h-screen flex-col gap-2">
             <div className="flex h-14 items-center px-4 lg:h-[60px] lg:px-6">
               <Link href="/" className="text-white flex items-center gap-2 font-semibold">
                 <SiStockx className="h-6 w-6" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-                <span className="">StockUp</span>
-=======
                 <span className="">Stockup</span>
->>>>>>> 0ee5324 (update some pages)
-=======
-                <span className="">Stockup</span>
->>>>>>> 133fd70 (fixed unused varaibles)
               </Link>
             </div>
             <div className="flex-1">
               <nav className="grid gap-4 items-start text-sm font-medium mt-8">
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 133fd70 (fixed unused varaibles)
               <Link
                   href="/dashboard/user"
                   className={`text-white flex items-center gap-3 pl-6 pr-3 py-2 transition-all hover:bg-[#2e3327] dark:hover:bg-muted ${pathname === '/dashboard/user' && 'bg-[#2e3327] dark:bg-muted'
@@ -107,24 +73,12 @@ export default function DashboardLayout({
                   <Package className="h-4 w-4" />
                   Porfolio
                 </Link>
-<<<<<<< HEAD
->>>>>>> 0ee5324 (update some pages)
-=======
->>>>>>> 133fd70 (fixed unused varaibles)
                 <Link
                   href="/dashboard/user/transaction-history"
                   className={`text-white flex items-center gap-3 pl-6 pr-3 py-2 transition-all hover:bg-[#2e3327] dark:hover:bg-muted ${pathname === '/dashboard/user/transaction-history' && 'bg-[#2e3327] dark:bg-muted'
                     }`}
                 >
-<<<<<<< HEAD
-<<<<<<< HEAD
-                  <Package className="h-4 w-4" />
-=======
                   <ChartArea className="h-4 w-4" />
->>>>>>> 0ee5324 (update some pages)
-=======
-                  <ChartArea className="h-4 w-4" />
->>>>>>> 133fd70 (fixed unused varaibles)
                   Transactions
                 </Link>
                 <Link
@@ -132,15 +86,7 @@ export default function DashboardLayout({
                   className={`text-white flex items-center gap-3 pl-6 pr-3 py-2 text-muted-foreground transition-all hover:bg-[#2e3327] dark:hover:bg-muted ${pathname === '/dashboard/user/deposit' && 'bg-[#2e3327] dark:bg-muted'
                     }`}
                 >
-<<<<<<< HEAD
-<<<<<<< HEAD
-                  <Users className="h-4 w-4" />
-=======
                   <Download className="h-4 w-4" />
->>>>>>> 0ee5324 (update some pages)
-=======
-                  <Download className="h-4 w-4" />
->>>>>>> 133fd70 (fixed unused varaibles)
                   Deposit Cash
                 </Link>
                 <Link
@@ -148,15 +94,7 @@ export default function DashboardLayout({
                   className={`text-white flex items-center gap-3 pl-6 pr-3 py-2 text-muted-foreground transition-all hover:bg-[#2e3327] dark:hover:bg-muted ${pathname === '/dashboard/user/withdraw' && 'bg-[#2e3327] dark:bg-muted'
                     }`}
                 >
-<<<<<<< HEAD
-<<<<<<< HEAD
-                  <Users className="h-4 w-4" />
-=======
                   <Upload className="h-4 w-4" />
->>>>>>> 0ee5324 (update some pages)
-=======
-                  <Upload className="h-4 w-4" />
->>>>>>> 133fd70 (fixed unused varaibles)
                   Withdraw Cash
                 </Link>
               </nav>
@@ -183,15 +121,7 @@ export default function DashboardLayout({
                     className="flex items-center gap-2 text-lg font-semibold"
                   >
                     <Package2 className="sr-only h-6 w-6" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-                    <span className="sr-only">StockUp</span>
-=======
                     <span className="sr-only">Samstocks</span>
->>>>>>> 0ee5324 (update some pages)
-=======
-                    <span className="sr-only">Samstocks</span>
->>>>>>> 133fd70 (fixed unused varaibles)
                   </Link>
                   <Link
                     href="/dashboard/user/transaction-history"
@@ -220,15 +150,7 @@ export default function DashboardLayout({
             <div className="md:hidden flex h-14 items-center pr-4 lg:h-[60px] lg:px-6">
               <Link href="/" className="text-white flex items-center gap-2 font-semibold">
                 <SiStockx className="h-4 w-4 md:h-6 md:w-6" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-                <span className="text-sm">StockUp</span>
-=======
                 <span className="text-sm">SamStocks</span>
->>>>>>> 0ee5324 (update some pages)
-=======
-                <span className="text-sm">SamStocks</span>
->>>>>>> 133fd70 (fixed unused varaibles)
               </Link>
             </div>
 
