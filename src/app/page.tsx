@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Button } from "@/components/ui/button"
 import Image from "next/image";
 
@@ -25,6 +26,8 @@ export default function Home() {
           <li>Save and see your changes instantly.</li>
         </ol>
 =======
+=======
+>>>>>>> 133fd70 (fixed unused varaibles)
 import Image from "next/image";
 import { SiStockx } from "react-icons/si";
 
@@ -40,11 +43,15 @@ export default function Home() {
           <p className="uppercase font-bold">Welcome to stockup</p>
           <p className="text-sm">Your all-in-one stock trading partner</p>
         </div>
+<<<<<<< HEAD
 >>>>>>> 0ee5324 (update some pages)
+=======
+>>>>>>> 133fd70 (fixed unused varaibles)
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
           <a
             className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
+<<<<<<< HEAD
 <<<<<<< HEAD
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
             target="_blank"
@@ -52,6 +59,9 @@ export default function Home() {
 =======
             href="/auth/register"
 >>>>>>> 0ee5324 (update some pages)
+=======
+            href="/auth/register"
+>>>>>>> 133fd70 (fixed unused varaibles)
           >
             <Image
               className="dark:invert"
@@ -60,6 +70,7 @@ export default function Home() {
               width={20}
               height={20}
             />
+<<<<<<< HEAD
 <<<<<<< HEAD
             Deploy now
           </a>
@@ -73,6 +84,8 @@ export default function Home() {
           </a>
 	  <Button>Click me</Button>
 =======
+=======
+>>>>>>> 133fd70 (fixed unused varaibles)
             Register
           </a>
           <a
@@ -81,12 +94,16 @@ export default function Home() {
           >
             Login
           </a>
+<<<<<<< HEAD
 >>>>>>> 0ee5324 (update some pages)
+=======
+>>>>>>> 133fd70 (fixed unused varaibles)
         </div>
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+<<<<<<< HEAD
 <<<<<<< HEAD
           href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
           target="_blank"
@@ -94,6 +111,9 @@ export default function Home() {
 =======
           href="/dashboard/user"
 >>>>>>> 0ee5324 (update some pages)
+=======
+          href="/dashboard/user"
+>>>>>>> 133fd70 (fixed unused varaibles)
         >
           <Image
             aria-hidden
@@ -102,6 +122,7 @@ export default function Home() {
             width={16}
             height={16}
           />
+<<<<<<< HEAD
 <<<<<<< HEAD
           Learn
         </a>
@@ -126,12 +147,17 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
 =======
+=======
+>>>>>>> 133fd70 (fixed unused varaibles)
           User dashboard →
         </a>
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
           href="/dashboard/admin"
+<<<<<<< HEAD
 >>>>>>> 0ee5324 (update some pages)
+=======
+>>>>>>> 133fd70 (fixed unused varaibles)
         >
           <Image
             aria-hidden
@@ -141,10 +167,14 @@ export default function Home() {
             height={16}
           />
 <<<<<<< HEAD
+<<<<<<< HEAD
           Go to nextjs.org →
 =======
           Admin dashboard →
 >>>>>>> 0ee5324 (update some pages)
+=======
+          Admin dashboard →
+>>>>>>> 133fd70 (fixed unused varaibles)
         </a>
       </footer>
     </div>

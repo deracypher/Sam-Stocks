@@ -7,9 +7,13 @@ import { ThemeProvider } from "@/components/theme-provider"
 
 import {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   ChartArea,
 >>>>>>> 0ee5324 (update some pages)
+=======
+  ChartArea,
+>>>>>>> 133fd70 (fixed unused varaibles)
   CircleUser,
   Home,
   Menu,
@@ -50,20 +54,28 @@ export default function DashboardLayout({
       disableTransitionOnChange
     >
 <<<<<<< HEAD
+<<<<<<< HEAD
       <div className="bg-[#393d32] dark:bg-transparent grid min-h-screen w-full md:grid-cols-[180px_1fr] lg:grid-cols-[240px_1fr]">
 =======
       <div className="bg-[#393d32] dark:bg-transparent grid min-h-[calc(100vh-52px)] w-full md:grid-cols-[180px_1fr] lg:grid-cols-[240px_1fr]">
 >>>>>>> 0ee5324 (update some pages)
+=======
+      <div className="bg-[#393d32] dark:bg-transparent grid min-h-[calc(100vh-52px)] w-full md:grid-cols-[180px_1fr] lg:grid-cols-[240px_1fr]">
+>>>>>>> 133fd70 (fixed unused varaibles)
         <div className="hidden md:block dark:bg-muted/40">
           <div className="flex h-full max-h-screen flex-col gap-2">
             <div className="flex h-14 items-center px-4 lg:h-[60px] lg:px-6">
               <Link href="/" className="text-white flex items-center gap-2 font-semibold">
                 <SiStockx className="h-6 w-6" />
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <span className="">StockUp</span>
 =======
                 <span className="">Stockup</span>
 >>>>>>> 0ee5324 (update some pages)
+=======
+                <span className="">Stockup</span>
+>>>>>>> 133fd70 (fixed unused varaibles)
               </Link>
             </div>
             <div className="flex-1">
@@ -80,6 +92,7 @@ export default function DashboardLayout({
                   href="/dashboard/admin/users"
                   className={`text-white flex items-center gap-3 pl-6 pr-3 py-2 transition-all hover:bg-[#2e3327] dark:hover:bg-muted ${pathname === '/dashboard/admin/users' && 'bg-[#2e3327] dark:bg-muted'
 <<<<<<< HEAD
+<<<<<<< HEAD
                     }`}
                 >
                   <ShoppingCart className="h-4 w-4" />
@@ -88,6 +101,11 @@ export default function DashboardLayout({
                 >
                   <Users className="h-4 w-4" />
 >>>>>>> 0ee5324 (update some pages)
+=======
+                  }`}
+                >
+                  <Users className="h-4 w-4" />
+>>>>>>> 133fd70 (fixed unused varaibles)
                   Users
                   <Badge className="ml-auto flex h-6 w-6 shrink-0 items-center justify-center rounded-full">
                     6
@@ -97,15 +115,20 @@ export default function DashboardLayout({
                   href="/dashboard/admin/stocks"
                   className={`text-white flex items-center gap-3 pl-6 pr-3 py-2 transition-all hover:bg-[#2e3327] dark:hover:bg-muted ${pathname === '/dashboard/admin/stocks' && 'bg-[#2e3327] dark:bg-muted'
 <<<<<<< HEAD
+<<<<<<< HEAD
                     }`}
 =======
                   }`}
 >>>>>>> 0ee5324 (update some pages)
+=======
+                  }`}
+>>>>>>> 133fd70 (fixed unused varaibles)
                 >
                   <Package className="h-4 w-4" />
                   Stock Manager{" "}
                 </Link>
                 <Link
+<<<<<<< HEAD
 <<<<<<< HEAD
                   href="#"
                   className="text-white flex items-center gap-3 pl-6 pr-3 py-2 text-muted-foreground transition-all hover:bg-[#2e3327] dark:hover:bg-muted"
@@ -113,13 +136,18 @@ export default function DashboardLayout({
                   <Users className="h-4 w-4" />
                   Market
 =======
+=======
+>>>>>>> 133fd70 (fixed unused varaibles)
                   href="/dashboard/admin/market"
                   className={`text-white flex items-center gap-3 pl-6 pr-3 py-2 transition-all hover:bg-[#2e3327] dark:hover:bg-muted ${pathname === '/dashboard/admin/market' && 'bg-[#2e3327] dark:bg-muted'
                   }`}
                 >
                   <ChartArea className="h-4 w-4" />
                   Market{" "}
+<<<<<<< HEAD
 >>>>>>> 0ee5324 (update some pages)
+=======
+>>>>>>> 133fd70 (fixed unused varaibles)
                 </Link>
               </nav>
             </div>
@@ -147,10 +175,14 @@ export default function DashboardLayout({
                   >
                     <Package2 className="sr-only h-6 w-6" />
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <span className="sr-only">StockUp</span>
 =======
                     <span className="sr-only">Samstocks</span>
 >>>>>>> 0ee5324 (update some pages)
+=======
+                    <span className="sr-only">Samstocks</span>
+>>>>>>> 133fd70 (fixed unused varaibles)
                   </Link>
                   <Link
                     href="#"
@@ -190,10 +222,14 @@ export default function DashboardLayout({
               <Link href="/" className="text-white flex items-center gap-2 font-semibold">
                 <SiStockx className="h-4 w-4 md:h-6 md:w-6" />
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <span className="text-sm">s</span>
 =======
                 <span className="text-sm">SamStocks</span>
 >>>>>>> 0ee5324 (update some pages)
+=======
+                <span className="text-sm">SamStocks</span>
+>>>>>>> 133fd70 (fixed unused varaibles)
               </Link>
             </div>
 
@@ -210,11 +246,14 @@ export default function DashboardLayout({
                 <DropdownMenuLabel>My Account</DropdownMenuLabel>
                 <DropdownMenuSeparator />
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <DropdownMenuItem>Settings</DropdownMenuItem>
                 <DropdownMenuItem>Support</DropdownMenuItem>
                 <DropdownMenuSeparator />
 =======
 >>>>>>> 0ee5324 (update some pages)
+=======
+>>>>>>> 133fd70 (fixed unused varaibles)
                 <Link href="/auth/login" passHref>
                   <DropdownMenuItem className="cursor-pointer">Logout</DropdownMenuItem>
                 </Link>
@@ -223,6 +262,7 @@ export default function DashboardLayout({
             <ModeToggle />
           </header>
           <main className="bg-white dark:bg-transparent rounded-2xl flex flex-1 flex-col gap-4 p-4 lg:gap-6 lg:p-6">
+<<<<<<< HEAD
 <<<<<<< HEAD
 
             {children}
@@ -233,6 +273,10 @@ export default function DashboardLayout({
             {children}
           </main>
 >>>>>>> 0ee5324 (update some pages)
+=======
+            {children}
+          </main>
+>>>>>>> 133fd70 (fixed unused varaibles)
         </div>
       </div>
 

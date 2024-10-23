@@ -1,9 +1,13 @@
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
   "name": "StockUp",
 =======
   "name": "stockup",
 >>>>>>> 0ee5324 (update some pages)
+=======
+  "name": "stockup",
+>>>>>>> 133fd70 (fixed unused varaibles)
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -24,9 +28,13 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     "embla-carousel-react": "^8.3.0",
 >>>>>>> 0ee5324 (update some pages)
+=======
+    "embla-carousel-react": "^8.3.0",
+>>>>>>> 133fd70 (fixed unused varaibles)
     "lucide-react": "^0.446.0",
     "next": "14.2.13",
     "next-themes": "^0.3.0",
@@ -48,7 +56,11 @@
     "typescript": "^5"
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 =======
 }
 >>>>>>> 0ee5324 (update some pages)
+=======
+}
+>>>>>>> 133fd70 (fixed unused varaibles)

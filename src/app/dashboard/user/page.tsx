@@ -2,6 +2,7 @@
 
 import {
 <<<<<<< HEAD
+<<<<<<< HEAD
   Avatar,
 } from "@/components/ui/avatar"
 import { Button } from "@/components/ui/button"
@@ -22,6 +23,8 @@ import {
 } from "recharts"
 import {
 =======
+=======
+>>>>>>> 133fd70 (fixed unused varaibles)
   Card,
 } from "@/components/ui/card"
 import {
@@ -33,11 +36,15 @@ import {
 } from "@/components/ui/carousel"
 import {
   ChartConfig,
+<<<<<<< HEAD
 >>>>>>> 0ee5324 (update some pages)
+=======
+>>>>>>> 133fd70 (fixed unused varaibles)
   ChartContainer,
   ChartTooltip,
   ChartTooltipContent,
 } from "@/components/ui/chart"
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 import {
@@ -651,6 +658,8 @@ export default function UserDashboard() {
         </div>
       </div>
 =======
+=======
+>>>>>>> 133fd70 (fixed unused varaibles)
 import Rating from "@/components/custom/Rating"
 import { Separator } from "@/components/ui/separator"
 
@@ -1091,7 +1100,10 @@ export default function Users() {
         </div>
       </div>
 
+<<<<<<< HEAD
 >>>>>>> 0ee5324 (update some pages)
+=======
+>>>>>>> 133fd70 (fixed unused varaibles)
     </>
   )
 }
