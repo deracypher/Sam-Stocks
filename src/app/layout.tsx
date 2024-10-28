@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import "./globals.css";
+<<<<<<< HEAD
 import Link from "next/link";
+=======
+>>>>>>> ed53fb7 (Updated files)
 
 
 export const metadata: Metadata = {
@@ -19,6 +22,7 @@ export default function RootLayout({
         className={"font-sans antialiased"}
       >
         {children}
+<<<<<<< HEAD
         <footer className="bg-[#949494] py-4">
           <ul className="flex justify-center flex-col md:flex-row gap-3 md:gap-5 text-center">
             <li className="text-sm">
@@ -38,6 +42,8 @@ export default function RootLayout({
             </li>
           </ul>
         </footer>
+=======
+>>>>>>> ed53fb7 (Updated files)
       </body>
     </html>
   );
